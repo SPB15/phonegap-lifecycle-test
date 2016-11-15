@@ -1,6 +1,6 @@
 $(document).on("pagecreate","#pageone",function(){
   $('#submitButton').on("click", function(){
-    random();
+    submitText();
   });            
 });            
 
@@ -18,4 +18,5 @@ function storeValue(key, value) {
 
 function random() {
 	return !Math.round(Math.random());
+	$("#textinput").text("");
 }
