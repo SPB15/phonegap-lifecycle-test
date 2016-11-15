@@ -18,9 +18,14 @@ function storeValue(key, value) {
 
 function random() {
 	
-	return Math.floor(Math.random() * 10);
-
+	//return Math.floor(Math.random() * 10);
+ if random() == true {
 	
+	navigator.notification.beep(1);
+	 
+ }
+	return !Math.round(Math.random());
 	//alert(text);
 	
 }
+
